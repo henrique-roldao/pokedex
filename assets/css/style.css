@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 body {
     background: #EFEFBB;
     background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
-    background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
 
     display: flex;
     flex-direction: column;
@@ -15,6 +15,117 @@ body {
     justify-content: center;
     font-family: 'Lato';
     margin: 0;
+}
+
+.container {
+    width: 530px;
+    height: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+    background: #E4E3FF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background: #363643;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header p {
+    font-size: 1.125em;
+    color: #FFF;
+    margin-left: 30px;
+}
+
+.header p::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #827AFF;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+.trainer {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.trainer img {
+    margin-right: 5px;
+}
+
+.trainer h2 {
+    font-size: 1.125em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+}
+
+.poke-box {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.poke-box2 {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.box {
+    width: 90px;
+    height: 68px;
+    border: 1px solid #363643;
+    background: #F8F7FF;
+    overflow: hidden;
+}
+
+.box:nth-child(2) {
+    margin: 0 15px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.perfil {
+    width: 100%;
+}
+
+
+.perfil > img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12), 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.sociais a {
+    margin-top: 10px;
+}
+
+.sociais a:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1 {

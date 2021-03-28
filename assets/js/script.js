@@ -11,7 +11,7 @@ const colors = {
     poison: '#B97FC9',
     bug: '#F8D5A3',
     dragon: '#98B3E6',
-    psychic: '#F366B9',
+    psychic: '#F38DC9',
     flying: '#F5F5F5',
     fighting: '#E6E0D4',
     normal: '#F5F5F5',
